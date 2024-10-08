@@ -1,2 +1,3 @@
 Record=TopLevelDocument|FileName=EFR32.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=EFR32.SchDoc|FileName=Sheet1.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=EFR32.SchDoc|FileName=PMU.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=EFR32.SchDoc|FileName=Sensors.SchDoc|SheetNumber=1
