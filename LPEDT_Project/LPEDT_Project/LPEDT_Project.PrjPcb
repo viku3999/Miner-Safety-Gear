@@ -49,13 +49,13 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Sheet1.SchDoc
+DocumentPath=Sensors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -63,26 +63,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=IXPSPBNS
+DocumentUniqueId=JYXBAFPW
 
 [Document2]
-DocumentPath=Si7021.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CSXWORIP
-
-[Document3]
 DocumentPath=EFR32.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,14 +82,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LXPMFJHI
 
-[Document4]
-DocumentPath=BMI270.SchDoc
+[Document3]
+DocumentPath=PMU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -114,7 +97,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=MGBVVPMT
+DocumentUniqueId=TFMBGMKA
 
 [Configuration1]
 Name=Sources
