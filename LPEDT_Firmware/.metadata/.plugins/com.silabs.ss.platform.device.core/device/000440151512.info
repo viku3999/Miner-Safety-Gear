@@ -1,0 +1,4 @@
+protectFromDetectionUpdates=false
+label=J-Link EnergyMicro (440151512)
+boardOverrides {
+}
