@@ -163,7 +163,6 @@ SL_WEAK void app_process_action(void)
   // Get the event to handle from the scheduler and call the state machine
   event = getNextEvent();
 
-//  temperature_state_machine(event);
   temperature_state_machine(event);
 #endif
 } // app_process_action()

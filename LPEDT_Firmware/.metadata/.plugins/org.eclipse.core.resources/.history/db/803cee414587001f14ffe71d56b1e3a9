@@ -67,6 +67,15 @@ void schedulerSetEventI2CTransferDone();
  */
 uint32_t getNextEvent();
 
+/**
+ * @brief   State machine to get the temperature from Si7021 chip over I2C using
+ *          IRQs
+ * @param   event -   event occurring outside of the state machine using which
+ *                    the state machine shall determine the next course of action
+ * @return  none
+ */
+//void temperature_state_machine(uint32_t event);
+
 #if BUILD_INCLUDES_BLE_SERVER == 1
 /**
  * @brief   State machine to get the temperature from Si7021 chip over I2C using

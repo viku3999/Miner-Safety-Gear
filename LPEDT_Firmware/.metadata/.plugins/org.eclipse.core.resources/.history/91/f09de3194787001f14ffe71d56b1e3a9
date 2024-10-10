@@ -164,7 +164,7 @@ SL_WEAK void app_process_action(void)
   event = getNextEvent();
 
 //  temperature_state_machine(event);
-  temperature_state_machine(event);
+  temperature_state_machine2(event);
 #endif
 } // app_process_action()
 
