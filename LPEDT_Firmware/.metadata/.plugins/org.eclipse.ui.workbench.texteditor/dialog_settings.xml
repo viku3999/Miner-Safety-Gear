@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="sl_bt_evt_system_external_signal_t"/>
+		<item key="selection" value="I2C_TRANSFER_COMPLETE_BIT_POS"/>
 		<list key="findhistory">
+			<item value="I2C_TRANSFER_COMPLETE_BIT_POS"/>
 			<item value="sl_bt_evt_system_external_signal_t"/>
 			<item value="evt_system_external_signal"/>
 			<item value="sl_bt_msg"/>

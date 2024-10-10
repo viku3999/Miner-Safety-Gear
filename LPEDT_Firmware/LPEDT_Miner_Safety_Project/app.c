@@ -157,13 +157,14 @@ SL_WEAK void app_init(void)
  *****************************************************************************/
 SL_WEAK void app_process_action(void)
 {
-//  uint32_t event;
-//
-//  // Get the event to handle from the scheduler and call the state machine
-//  event = getNextEvent();
-//
-//  temperature_state_machine(event);
+#if BT_COMM == 0
+  uint32_t event;
 
+  // Get the event to handle from the scheduler and call the state machine
+  event = getNextEvent();
+
+  temperature_state_machine(event);
+#endif
 } // app_process_action()
 
 /**************************************************************************//**
@@ -179,6 +180,7 @@ SL_WEAK void app_process_action(void)
 void sl_bt_on_event(sl_bt_msg_t *evt)
 {
 
+#if BT_COMM == 1
    handle_ble_event(evt); // put this code in ble.c/.h
 
 #if BUILD_INCLUDES_BLE_SERVER == 1
@@ -191,5 +193,6 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
    Discovery_State_Machine(evt);
 #endif
 
+#endif
 } // sl_bt_on_event()
 

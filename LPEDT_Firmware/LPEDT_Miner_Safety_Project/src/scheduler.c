@@ -126,7 +126,7 @@ void schedulerSetEventLETIMER0Comp1(){
   // Enter critical state to modify global variable and exit ASAP
   CORE_DECLARE_IRQ_STATE;
   CORE_ENTER_CRITICAL();
-//  SchedulerEvents |= (1<<LETIMERCOMP1_BIT_POS);
+  SchedulerEvents |= (1<<LETIMERCOMP1_BIT_POS);
   sl_bt_external_signal(1<<LETIMERCOMP1_BIT_POS);
   CORE_EXIT_CRITICAL();
 }
@@ -139,7 +139,7 @@ void schedulerSetEventLETIMER0UF(){
   // Enter critical state to modify global variable and exit ASAP
   CORE_DECLARE_IRQ_STATE;
   CORE_ENTER_CRITICAL();
-//  SchedulerEvents |= (1<<LETIMERUF_BIT_POS);
+  SchedulerEvents |= (1<<LETIMERUF_BIT_POS);
   sl_bt_external_signal(1<<LETIMERUF_BIT_POS);
   CORE_EXIT_CRITICAL();
 }
@@ -152,7 +152,7 @@ void schedulerSetEventI2CTransferDone(){
   // Enter critical state to modify global variable and exit ASAP
   CORE_DECLARE_IRQ_STATE;
   CORE_ENTER_CRITICAL();
-//  SchedulerEvents |= (1<<I2C_TRANSFER_COMPLETE_BIT_POS);
+  SchedulerEvents |= (1<<I2C_TRANSFER_COMPLETE_BIT_POS);
   sl_bt_external_signal(1<<I2C_TRANSFER_COMPLETE_BIT_POS);
   CORE_EXIT_CRITICAL();
 }
@@ -224,8 +224,8 @@ void temperature_state_machine(uint32_t event){
              * if event is LETIMERUF, then power on the Si7021, set delay for
              * Si7021 POR and go to next state
              */
-//              if (event == EVENT_LETIMER_UF) {
-              if (event & (1<<LETIMERUF_BIT_POS)) {
+              if (event == EVENT_LETIMER_UF) {
+//              if (event & (1<<LETIMERUF_BIT_POS)) {
                   si7021TurnOn();
                   timerWaitUs_irq(SI7021_POR_TIME_US);
                   nextState = waitForSi7021POR;
@@ -238,9 +238,9 @@ void temperature_state_machine(uint32_t event){
              * then set sleep to EM1, start I2C write operation to request
              * temperature data from the Si7021 chip and go to next state.
              */
-//              if (event == EVENT_LETIMER_COMP1) {
-              if (event & (1<<LETIMERCOMP1_BIT_POS)) {
-//                  sl_power_manager_add_em_requirement(SL_POWER_MANAGER_EM1); // Setting sleep to EM1
+              if (event == EVENT_LETIMER_COMP1) {
+//              if (event & (1<<LETIMERCOMP1_BIT_POS)) {
+                  sl_power_manager_add_em_requirement(SL_POWER_MANAGER_EM1); // Setting sleep to EM1
                   I2C_Write_Data_itr(SI7021_DEVICE_ADDR, SI7021_CMD_MEASURE_TEMP_NO_HOLD);
                   nextState = waitForI2CWriteTransfer;
               }
@@ -252,10 +252,10 @@ void temperature_state_machine(uint32_t event){
              * requirement, setup conversion timer required by the Si7021 chip
              * and go to next state.
              */
-//              if (event == EVENT_I2C_TRANSFER_COMPLETE) {
-              if (event & (1<<I2C_TRANSFER_COMPLETE_BIT_POS)) {
+              if (event == EVENT_I2C_TRANSFER_COMPLETE) {
+//              if (event & (1<<I2C_TRANSFER_COMPLETE_BIT_POS)) {
                   NVIC_DisableIRQ(I2C0_IRQn);
-//                  sl_power_manager_remove_em_requirement(SL_POWER_MANAGER_EM1); // Setting sleep to EM3
+                  sl_power_manager_remove_em_requirement(SL_POWER_MANAGER_EM1); // Setting sleep to EM3
                   timerWaitUs_irq(SI7021_14B_CONVERSION_TIME_US);
                   nextState = waitForSi7021Conversion;
               }
@@ -268,8 +268,8 @@ void temperature_state_machine(uint32_t event){
             * requested temperature data from the Si7021 chip and go to next
             * state.
             */
-//              if (event == EVENT_LETIMER_COMP1) {
-              if (event & (1<<LETIMERCOMP1_BIT_POS)) {
+              if (event == EVENT_LETIMER_COMP1) {
+//              if (event & (1<<LETIMERCOMP1_BIT_POS)) {
                   sl_power_manager_add_em_requirement(SL_POWER_MANAGER_EM1); // Setting sleep to EM1
                   I2C_Read_Data_irq(SI7021_DEVICE_ADDR);
                   nextState = waitForI2CReadTransfer;
@@ -283,8 +283,8 @@ void temperature_state_machine(uint32_t event){
              * requirement, retrive data from I2C read operation and print the temperature to the LOG console,
              * and go to next state.
              */
-//              if (event == EVENT_I2C_TRANSFER_COMPLETE) {
-              if (event & (1<<I2C_TRANSFER_COMPLETE_BIT_POS)) {
+              if (event == EVENT_I2C_TRANSFER_COMPLETE) {
+//              if (event & (1<<I2C_TRANSFER_COMPLETE_BIT_POS)) {
                   NVIC_DisableIRQ(I2C0_IRQn);
                   si7021TurnOff();
                   sl_power_manager_remove_em_requirement(SL_POWER_MANAGER_EM1); // Setting sleep to EM3

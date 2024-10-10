@@ -1299,3 +1299,904 @@ org.eclipse.swt.SWTException: Device is disposed
 
 !ENTRY org.eclipse.core.jobs 2 2 2024-10-10 01:10:38.734
 !MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2024-10-10 11:12:01.905 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2024-10-10 11:12:36.246
+!MESSAGE Jetty listening on: http://127.0.0.1:53991/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2024-10-10 11:12:37.083
+!MESSAGE ContentServer started at: 127.0.0.1, 53991
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2024-10-10 11:12:37.185
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2024-10-10 11:12:46.060
+!MESSAGE 6de80deb-e151-4487-af07-acb37b6eca20 The backing trust file C:\Users\vishn\AppData\Roaming\SimplicityStudio\5\primary_trusted.trust was loaded.
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2024-10-10 11:12:46.156
+!MESSAGE 6de80deb-e151-4487-af07-acb37b6eca20 The signable at C:/SiliconLabs/SimplicityStudio/v5/developer/sdks/gecko_sdk_suite/v3.2 of com.silabs.sdk.stack.super:3.2.9._640221276 is considered trusted at its given version.
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2024-10-10 11:12:46.282
+!MESSAGE 6de80deb-e151-4487-af07-acb37b6eca20 The signable at C:/Users/vishn/SimplicityStudio/SDKs/gecko_sdk_2 of com.silabs.sdk.stack.super:4.4.0._233561819 is considered trusted at its given version.
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2024-10-10 11:12:57.942
+!MESSAGE 6de80deb-e151-4487-af07-acb37b6eca20 The signable at C:/SiliconLabs/SimplicityStudio/v5/developer/sdks/gecko_sdk_suite/v3.2 of com.silabs.sdk.stack.super:3.2.9._640221276 is considered trusted at its given version.
+
+!ENTRY com.silabs.ss.tool.installer.core 1 0 2024-10-10 11:13:01.200
+!MESSAGE isInternalNetwork: false
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2024-10-10 11:13:03.777
+!MESSAGE Local timestamp file does not exist: C:\SiliconLabs\SimplicityStudio\v5\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2024-10-10 11:13:04.017
+!MESSAGE Local timestamp file does not exist: C:\SiliconLabs\SimplicityStudio\v5\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2024-10-10 11:13:04.325
+!MESSAGE AdapterPack Device inspector for Exx32 and EFM8 hardware has setupcheck function type 
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2024-10-10 11:13:04.813
+!MESSAGE AdapterPack USB adapter pack has setupcheck function type 
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2024-10-10 11:13:15.263
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2024-10-10 11:13:18.277
+!MESSAGE Environment modified for executable commander:
+{USERDOMAIN_ROAMINGPROFILE=VISHNU_G16, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, ACSvcPort=17532, USERNAME=vishn, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\vishn, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, FITTERDIR=C:\Wincupl\Wincupl\Fitters, =::=::\, as31=C:\sdcc\bin\as31.exe, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5SxcbW1gh0eLjrbgeExb1AQAAAACAAAAAAAQZgAAAAEAACAAAABD0n7048b68jaT5FnkoXB/jHXTtWyUEwGFcFKgjbBhvQAAAAAOgAAAAAIAACAAAAAKWeCxjOGXTXPB6LAuYICba3Fs7Zio6ipW6aEbkK1zkmAAAABzY45LOn/KpSUHqUBcGrgJk7vR2WtlWVDVF2qidbHRDsP5b9ya0HVXO7i1CTmwhirgrgPYwZ28VKA97pn6EcWIKw4WmJ+yijyr4vk59M1y86F3Ovz9/FJw1DAhMBx7l/tAAAAA9NuDW3R9yAZzUP6XrQlOJK5wFvXtKjvQbOT0+xMcGkN/ugao/iKoKXQVfIlYSF5BE/LdAg1S4NAtahbrwv8deA==, LOCALAPPDATA=C:\Users\vishn\AppData\Local, USERDOMAIN=VISHNU_G16, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\VISHNU_G16, RlsSvcPort=22112, EFC_22068=1, OneDrive=C:\Users\vishn\OneDrive, APPDATA=C:\Users\vishn\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin\server;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2024a\bin;C:\Wincupl\WinCupl\Fitters;C:\Users\vishn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vishn\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Atmel\Flip 3.4.7\bin;C:\Program Files\SDCC\bin;C:\Users\vishn\Downloads\SomeLocalDir;C:\msys64\ucrt64\bin;C:\Users\vishn\AppData\Local\Pandoc;C:\Users\vishn\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\SiliconLabs\SimplicityStudio\v5, OS=Windows_NT, COMPUTERNAME=VISHNU_G16, EnableLog=INFO, PROCESSOR_REVISION=ba02, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\vishn\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\vishn, TMP=C:\Users\vishn\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=16}
+
+!ENTRY com.silabs.ss.tool.ide.arm.debug 1 0 2024-10-10 11:14:18.572
+!MESSAGE jlink.LaunchConfigurationDelegate.newServiceFactory(LPEDT_Miner_Safety_Project GNU ARM v10.2.1 - Default GDB,10.2.90.20210621,debug) com.silabs.ss.tool.ide.arm.api.debug.gdb.StudioGdbLaunchConfigurationDelegate@493fb05f
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 11:14:18.637
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\JLinkGDBServerCL.exe -select usb=440151512 -if swd -device EFR32BG13PxxxF512 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -ir -localhostonly 1 -log C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\gdb_20241010_111412.log -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 11:14:19.195
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\arm-none-eabi-gdb.exe --interpreter=mi2 --nx
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2024-10-10 11:14:20.110
+!MESSAGE Environment modified for executable commander:
+{USERDOMAIN_ROAMINGPROFILE=VISHNU_G16, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, ACSvcPort=17532, USERNAME=vishn, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\vishn, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, FITTERDIR=C:\Wincupl\Wincupl\Fitters, =::=::\, as31=C:\sdcc\bin\as31.exe, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5SxcbW1gh0eLjrbgeExb1AQAAAACAAAAAAAQZgAAAAEAACAAAABD0n7048b68jaT5FnkoXB/jHXTtWyUEwGFcFKgjbBhvQAAAAAOgAAAAAIAACAAAAAKWeCxjOGXTXPB6LAuYICba3Fs7Zio6ipW6aEbkK1zkmAAAABzY45LOn/KpSUHqUBcGrgJk7vR2WtlWVDVF2qidbHRDsP5b9ya0HVXO7i1CTmwhirgrgPYwZ28VKA97pn6EcWIKw4WmJ+yijyr4vk59M1y86F3Ovz9/FJw1DAhMBx7l/tAAAAA9NuDW3R9yAZzUP6XrQlOJK5wFvXtKjvQbOT0+xMcGkN/ugao/iKoKXQVfIlYSF5BE/LdAg1S4NAtahbrwv8deA==, LOCALAPPDATA=C:\Users\vishn\AppData\Local, USERDOMAIN=VISHNU_G16, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\VISHNU_G16, RlsSvcPort=22112, EFC_22068=1, OneDrive=C:\Users\vishn\OneDrive, APPDATA=C:\Users\vishn\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin\server;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2024a\bin;C:\Wincupl\WinCupl\Fitters;C:\Users\vishn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vishn\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Atmel\Flip 3.4.7\bin;C:\Program Files\SDCC\bin;C:\Users\vishn\Downloads\SomeLocalDir;C:\msys64\ucrt64\bin;C:\Users\vishn\AppData\Local\Pandoc;C:\Users\vishn\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\SiliconLabs\SimplicityStudio\v5, OS=Windows_NT, COMPUTERNAME=VISHNU_G16, EnableLog=INFO, PROCESSOR_REVISION=ba02, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\vishn\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\vishn, TMP=C:\Users\vishn\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=16}
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2024-10-10 11:15:49.981
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2024-10-10 11:15:52.991
+!MESSAGE Environment modified for executable commander:
+{USERDOMAIN_ROAMINGPROFILE=VISHNU_G16, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, ACSvcPort=17532, USERNAME=vishn, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\vishn, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, FITTERDIR=C:\Wincupl\Wincupl\Fitters, =::=::\, as31=C:\sdcc\bin\as31.exe, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5SxcbW1gh0eLjrbgeExb1AQAAAACAAAAAAAQZgAAAAEAACAAAABD0n7048b68jaT5FnkoXB/jHXTtWyUEwGFcFKgjbBhvQAAAAAOgAAAAAIAACAAAAAKWeCxjOGXTXPB6LAuYICba3Fs7Zio6ipW6aEbkK1zkmAAAABzY45LOn/KpSUHqUBcGrgJk7vR2WtlWVDVF2qidbHRDsP5b9ya0HVXO7i1CTmwhirgrgPYwZ28VKA97pn6EcWIKw4WmJ+yijyr4vk59M1y86F3Ovz9/FJw1DAhMBx7l/tAAAAA9NuDW3R9yAZzUP6XrQlOJK5wFvXtKjvQbOT0+xMcGkN/ugao/iKoKXQVfIlYSF5BE/LdAg1S4NAtahbrwv8deA==, LOCALAPPDATA=C:\Users\vishn\AppData\Local, USERDOMAIN=VISHNU_G16, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\VISHNU_G16, RlsSvcPort=22112, EFC_22068=1, OneDrive=C:\Users\vishn\OneDrive, APPDATA=C:\Users\vishn\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin\server;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2024a\bin;C:\Wincupl\WinCupl\Fitters;C:\Users\vishn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vishn\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Atmel\Flip 3.4.7\bin;C:\Program Files\SDCC\bin;C:\Users\vishn\Downloads\SomeLocalDir;C:\msys64\ucrt64\bin;C:\Users\vishn\AppData\Local\Pandoc;C:\Users\vishn\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\SiliconLabs\SimplicityStudio\v5, OS=Windows_NT, COMPUTERNAME=VISHNU_G16, EnableLog=INFO, PROCESSOR_REVISION=ba02, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\vishn\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\vishn, TMP=C:\Users\vishn\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=16}
+
+!ENTRY com.silabs.ss.tool.ide.arm.debug 1 0 2024-10-10 11:16:05.080
+!MESSAGE jlink.LaunchConfigurationDelegate.newServiceFactory(LPEDT_Miner_Safety_Project GNU ARM v10.2.1 - Default GDB,10.2.90.20210621,debug) com.silabs.ss.tool.ide.arm.api.debug.gdb.StudioGdbLaunchConfigurationDelegate@68b02015
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 11:16:05.091
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\JLinkGDBServerCL.exe -select usb=440151512 -if swd -device EFR32BG13PxxxF512 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -ir -localhostonly 1 -log C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\gdb_20241010_111602.log -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 11:16:05.473
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\arm-none-eabi-gdb.exe --interpreter=mi2 --nx
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2024-10-10 11:16:05.793
+!MESSAGE Environment modified for executable commander:
+{USERDOMAIN_ROAMINGPROFILE=VISHNU_G16, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, ACSvcPort=17532, USERNAME=vishn, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\vishn, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, FITTERDIR=C:\Wincupl\Wincupl\Fitters, =::=::\, as31=C:\sdcc\bin\as31.exe, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5SxcbW1gh0eLjrbgeExb1AQAAAACAAAAAAAQZgAAAAEAACAAAABD0n7048b68jaT5FnkoXB/jHXTtWyUEwGFcFKgjbBhvQAAAAAOgAAAAAIAACAAAAAKWeCxjOGXTXPB6LAuYICba3Fs7Zio6ipW6aEbkK1zkmAAAABzY45LOn/KpSUHqUBcGrgJk7vR2WtlWVDVF2qidbHRDsP5b9ya0HVXO7i1CTmwhirgrgPYwZ28VKA97pn6EcWIKw4WmJ+yijyr4vk59M1y86F3Ovz9/FJw1DAhMBx7l/tAAAAA9NuDW3R9yAZzUP6XrQlOJK5wFvXtKjvQbOT0+xMcGkN/ugao/iKoKXQVfIlYSF5BE/LdAg1S4NAtahbrwv8deA==, LOCALAPPDATA=C:\Users\vishn\AppData\Local, USERDOMAIN=VISHNU_G16, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\VISHNU_G16, RlsSvcPort=22112, EFC_22068=1, OneDrive=C:\Users\vishn\OneDrive, APPDATA=C:\Users\vishn\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin\server;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2024a\bin;C:\Wincupl\WinCupl\Fitters;C:\Users\vishn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vishn\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Atmel\Flip 3.4.7\bin;C:\Program Files\SDCC\bin;C:\Users\vishn\Downloads\SomeLocalDir;C:\msys64\ucrt64\bin;C:\Users\vishn\AppData\Local\Pandoc;C:\Users\vishn\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\SiliconLabs\SimplicityStudio\v5, OS=Windows_NT, COMPUTERNAME=VISHNU_G16, EnableLog=INFO, PROCESSOR_REVISION=ba02, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\vishn\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\vishn, TMP=C:\Users\vishn\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=16}
+
+!ENTRY com.silabs.ss.tool.ide.arm.debug 1 0 2024-10-10 11:17:09.890
+!MESSAGE jlink.LaunchConfigurationDelegate.newServiceFactory(LPEDT_Miner_Safety_Project GNU ARM v10.2.1 - Default GDB,10.2.90.20210621,debug) com.silabs.ss.tool.ide.arm.api.debug.gdb.StudioGdbLaunchConfigurationDelegate@315f5d16
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 11:17:09.895
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\JLinkGDBServerCL.exe -select usb=440151512 -if swd -device EFR32BG13PxxxF512 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -ir -localhostonly 1 -log C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\gdb_20241010_111705.log -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 11:17:10.268
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\arm-none-eabi-gdb.exe --interpreter=mi2 --nx
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2024-10-10 11:17:10.578
+!MESSAGE Environment modified for executable commander:
+{USERDOMAIN_ROAMINGPROFILE=VISHNU_G16, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, ACSvcPort=17532, USERNAME=vishn, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\vishn, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, FITTERDIR=C:\Wincupl\Wincupl\Fitters, =::=::\, as31=C:\sdcc\bin\as31.exe, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5SxcbW1gh0eLjrbgeExb1AQAAAACAAAAAAAQZgAAAAEAACAAAABD0n7048b68jaT5FnkoXB/jHXTtWyUEwGFcFKgjbBhvQAAAAAOgAAAAAIAACAAAAAKWeCxjOGXTXPB6LAuYICba3Fs7Zio6ipW6aEbkK1zkmAAAABzY45LOn/KpSUHqUBcGrgJk7vR2WtlWVDVF2qidbHRDsP5b9ya0HVXO7i1CTmwhirgrgPYwZ28VKA97pn6EcWIKw4WmJ+yijyr4vk59M1y86F3Ovz9/FJw1DAhMBx7l/tAAAAA9NuDW3R9yAZzUP6XrQlOJK5wFvXtKjvQbOT0+xMcGkN/ugao/iKoKXQVfIlYSF5BE/LdAg1S4NAtahbrwv8deA==, LOCALAPPDATA=C:\Users\vishn\AppData\Local, USERDOMAIN=VISHNU_G16, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\VISHNU_G16, RlsSvcPort=22112, EFC_22068=1, OneDrive=C:\Users\vishn\OneDrive, APPDATA=C:\Users\vishn\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin\server;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2024a\bin;C:\Wincupl\WinCupl\Fitters;C:\Users\vishn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vishn\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Atmel\Flip 3.4.7\bin;C:\Program Files\SDCC\bin;C:\Users\vishn\Downloads\SomeLocalDir;C:\msys64\ucrt64\bin;C:\Users\vishn\AppData\Local\Pandoc;C:\Users\vishn\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\SiliconLabs\SimplicityStudio\v5, OS=Windows_NT, COMPUTERNAME=VISHNU_G16, EnableLog=INFO, PROCESSOR_REVISION=ba02, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\vishn\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\vishn, TMP=C:\Users\vishn\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=16}
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2024-10-10 11:23:13.518
+!MESSAGE Warning: C:\SiliconLabs\SimplicityStudio\v5\developer\sdks\gecko_sdk_suite\v3.2\gecko_sdk.slcs
+  - specification_version is 0 but 10 is the latest. Some features may be disabled.
+
+
+!ENTRY com.silabs.ss.tool.ide.arm.debug 1 0 2024-10-10 11:49:23.013
+!MESSAGE jlink.LaunchConfigurationDelegate.newServiceFactory(LPEDT_Miner_Safety_Project GNU ARM v10.2.1 - Default GDB,10.2.90.20210621,debug) com.silabs.ss.tool.ide.arm.api.debug.gdb.StudioGdbLaunchConfigurationDelegate@6003d6b6
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 11:49:23.019
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\JLinkGDBServerCL.exe -select usb=440151512 -if swd -device EFR32BG13PxxxF512 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -ir -localhostonly 1 -log C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\gdb_20241010_114920.log -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 11:49:23.704
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\arm-none-eabi-gdb.exe --interpreter=mi2 --nx
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2024-10-10 11:49:24.081
+!MESSAGE Environment modified for executable commander:
+{USERDOMAIN_ROAMINGPROFILE=VISHNU_G16, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, ACSvcPort=17532, USERNAME=vishn, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\vishn, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, FITTERDIR=C:\Wincupl\Wincupl\Fitters, =::=::\, as31=C:\sdcc\bin\as31.exe, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5SxcbW1gh0eLjrbgeExb1AQAAAACAAAAAAAQZgAAAAEAACAAAABD0n7048b68jaT5FnkoXB/jHXTtWyUEwGFcFKgjbBhvQAAAAAOgAAAAAIAACAAAAAKWeCxjOGXTXPB6LAuYICba3Fs7Zio6ipW6aEbkK1zkmAAAABzY45LOn/KpSUHqUBcGrgJk7vR2WtlWVDVF2qidbHRDsP5b9ya0HVXO7i1CTmwhirgrgPYwZ28VKA97pn6EcWIKw4WmJ+yijyr4vk59M1y86F3Ovz9/FJw1DAhMBx7l/tAAAAA9NuDW3R9yAZzUP6XrQlOJK5wFvXtKjvQbOT0+xMcGkN/ugao/iKoKXQVfIlYSF5BE/LdAg1S4NAtahbrwv8deA==, LOCALAPPDATA=C:\Users\vishn\AppData\Local, USERDOMAIN=VISHNU_G16, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\VISHNU_G16, RlsSvcPort=22112, EFC_22068=1, OneDrive=C:\Users\vishn\OneDrive, APPDATA=C:\Users\vishn\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin\server;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2024a\bin;C:\Wincupl\WinCupl\Fitters;C:\Users\vishn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vishn\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Atmel\Flip 3.4.7\bin;C:\Program Files\SDCC\bin;C:\Users\vishn\Downloads\SomeLocalDir;C:\msys64\ucrt64\bin;C:\Users\vishn\AppData\Local\Pandoc;C:\Users\vishn\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\SiliconLabs\SimplicityStudio\v5, OS=Windows_NT, COMPUTERNAME=VISHNU_G16, EnableLog=INFO, PROCESSOR_REVISION=ba02, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\vishn\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\vishn, TMP=C:\Users\vishn\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=16}
+
+!ENTRY com.silabs.ss.tool.ide.arm.debug 1 0 2024-10-10 11:53:57.518
+!MESSAGE jlink.LaunchConfigurationDelegate.newServiceFactory(LPEDT_Miner_Safety_Project GNU ARM v10.2.1 - Default GDB,10.2.90.20210621,debug) com.silabs.ss.tool.ide.arm.api.debug.gdb.StudioGdbLaunchConfigurationDelegate@7b6b83bc
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 11:53:57.522
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\JLinkGDBServerCL.exe -select usb=440151512 -if swd -device EFR32BG13PxxxF512 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -ir -localhostonly 1 -log C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\gdb_20241010_115354.log -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 11:53:57.906
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\arm-none-eabi-gdb.exe --interpreter=mi2 --nx
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2024-10-10 11:53:58.261
+!MESSAGE Environment modified for executable commander:
+{USERDOMAIN_ROAMINGPROFILE=VISHNU_G16, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, ACSvcPort=17532, USERNAME=vishn, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\vishn, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, FITTERDIR=C:\Wincupl\Wincupl\Fitters, =::=::\, as31=C:\sdcc\bin\as31.exe, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5SxcbW1gh0eLjrbgeExb1AQAAAACAAAAAAAQZgAAAAEAACAAAABD0n7048b68jaT5FnkoXB/jHXTtWyUEwGFcFKgjbBhvQAAAAAOgAAAAAIAACAAAAAKWeCxjOGXTXPB6LAuYICba3Fs7Zio6ipW6aEbkK1zkmAAAABzY45LOn/KpSUHqUBcGrgJk7vR2WtlWVDVF2qidbHRDsP5b9ya0HVXO7i1CTmwhirgrgPYwZ28VKA97pn6EcWIKw4WmJ+yijyr4vk59M1y86F3Ovz9/FJw1DAhMBx7l/tAAAAA9NuDW3R9yAZzUP6XrQlOJK5wFvXtKjvQbOT0+xMcGkN/ugao/iKoKXQVfIlYSF5BE/LdAg1S4NAtahbrwv8deA==, LOCALAPPDATA=C:\Users\vishn\AppData\Local, USERDOMAIN=VISHNU_G16, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\VISHNU_G16, RlsSvcPort=22112, EFC_22068=1, OneDrive=C:\Users\vishn\OneDrive, APPDATA=C:\Users\vishn\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin\server;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2024a\bin;C:\Wincupl\WinCupl\Fitters;C:\Users\vishn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vishn\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Atmel\Flip 3.4.7\bin;C:\Program Files\SDCC\bin;C:\Users\vishn\Downloads\SomeLocalDir;C:\msys64\ucrt64\bin;C:\Users\vishn\AppData\Local\Pandoc;C:\Users\vishn\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\SiliconLabs\SimplicityStudio\v5, OS=Windows_NT, COMPUTERNAME=VISHNU_G16, EnableLog=INFO, PROCESSOR_REVISION=ba02, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\vishn\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\vishn, TMP=C:\Users\vishn\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=16}
+
+!ENTRY com.silabs.ss.tool.ide.arm.debug 1 0 2024-10-10 12:00:22.829
+!MESSAGE jlink.LaunchConfigurationDelegate.newServiceFactory(LPEDT_Miner_Safety_Project GNU ARM v10.2.1 - Default GDB,10.2.90.20210621,debug) com.silabs.ss.tool.ide.arm.api.debug.gdb.StudioGdbLaunchConfigurationDelegate@21cd4bab
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 12:00:22.834
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\JLinkGDBServerCL.exe -select usb=440151512 -if swd -device EFR32BG13PxxxF512 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -ir -localhostonly 1 -log C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\gdb_20241010_120020.log -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 12:00:23.164
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\arm-none-eabi-gdb.exe --interpreter=mi2 --nx
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2024-10-10 12:00:23.515
+!MESSAGE Environment modified for executable commander:
+{USERDOMAIN_ROAMINGPROFILE=VISHNU_G16, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, ACSvcPort=17532, USERNAME=vishn, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\vishn, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, FITTERDIR=C:\Wincupl\Wincupl\Fitters, =::=::\, as31=C:\sdcc\bin\as31.exe, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5SxcbW1gh0eLjrbgeExb1AQAAAACAAAAAAAQZgAAAAEAACAAAABD0n7048b68jaT5FnkoXB/jHXTtWyUEwGFcFKgjbBhvQAAAAAOgAAAAAIAACAAAAAKWeCxjOGXTXPB6LAuYICba3Fs7Zio6ipW6aEbkK1zkmAAAABzY45LOn/KpSUHqUBcGrgJk7vR2WtlWVDVF2qidbHRDsP5b9ya0HVXO7i1CTmwhirgrgPYwZ28VKA97pn6EcWIKw4WmJ+yijyr4vk59M1y86F3Ovz9/FJw1DAhMBx7l/tAAAAA9NuDW3R9yAZzUP6XrQlOJK5wFvXtKjvQbOT0+xMcGkN/ugao/iKoKXQVfIlYSF5BE/LdAg1S4NAtahbrwv8deA==, LOCALAPPDATA=C:\Users\vishn\AppData\Local, USERDOMAIN=VISHNU_G16, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\VISHNU_G16, RlsSvcPort=22112, EFC_22068=1, OneDrive=C:\Users\vishn\OneDrive, APPDATA=C:\Users\vishn\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin\server;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2024a\bin;C:\Wincupl\WinCupl\Fitters;C:\Users\vishn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vishn\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Atmel\Flip 3.4.7\bin;C:\Program Files\SDCC\bin;C:\Users\vishn\Downloads\SomeLocalDir;C:\msys64\ucrt64\bin;C:\Users\vishn\AppData\Local\Pandoc;C:\Users\vishn\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\SiliconLabs\SimplicityStudio\v5, OS=Windows_NT, COMPUTERNAME=VISHNU_G16, EnableLog=INFO, PROCESSOR_REVISION=ba02, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\vishn\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\vishn, TMP=C:\Users\vishn\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=16}
+
+!ENTRY com.silabs.ss.tool.ide.arm.debug 1 0 2024-10-10 12:02:06.506
+!MESSAGE jlink.LaunchConfigurationDelegate.newServiceFactory(LPEDT_Miner_Safety_Project GNU ARM v10.2.1 - Default GDB,10.2.90.20210621,debug) com.silabs.ss.tool.ide.arm.api.debug.gdb.StudioGdbLaunchConfigurationDelegate@599ec289
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 12:02:06.510
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\JLinkGDBServerCL.exe -select usb=440151512 -if swd -device EFR32BG13PxxxF512 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -ir -localhostonly 1 -log C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\gdb_20241010_120204.log -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 12:02:06.859
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\arm-none-eabi-gdb.exe --interpreter=mi2 --nx
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2024-10-10 12:02:07.226
+!MESSAGE Environment modified for executable commander:
+{USERDOMAIN_ROAMINGPROFILE=VISHNU_G16, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, ACSvcPort=17532, USERNAME=vishn, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\vishn, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, FITTERDIR=C:\Wincupl\Wincupl\Fitters, =::=::\, as31=C:\sdcc\bin\as31.exe, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5SxcbW1gh0eLjrbgeExb1AQAAAACAAAAAAAQZgAAAAEAACAAAABD0n7048b68jaT5FnkoXB/jHXTtWyUEwGFcFKgjbBhvQAAAAAOgAAAAAIAACAAAAAKWeCxjOGXTXPB6LAuYICba3Fs7Zio6ipW6aEbkK1zkmAAAABzY45LOn/KpSUHqUBcGrgJk7vR2WtlWVDVF2qidbHRDsP5b9ya0HVXO7i1CTmwhirgrgPYwZ28VKA97pn6EcWIKw4WmJ+yijyr4vk59M1y86F3Ovz9/FJw1DAhMBx7l/tAAAAA9NuDW3R9yAZzUP6XrQlOJK5wFvXtKjvQbOT0+xMcGkN/ugao/iKoKXQVfIlYSF5BE/LdAg1S4NAtahbrwv8deA==, LOCALAPPDATA=C:\Users\vishn\AppData\Local, USERDOMAIN=VISHNU_G16, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\VISHNU_G16, RlsSvcPort=22112, EFC_22068=1, OneDrive=C:\Users\vishn\OneDrive, APPDATA=C:\Users\vishn\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin\server;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2024a\bin;C:\Wincupl\WinCupl\Fitters;C:\Users\vishn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vishn\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Atmel\Flip 3.4.7\bin;C:\Program Files\SDCC\bin;C:\Users\vishn\Downloads\SomeLocalDir;C:\msys64\ucrt64\bin;C:\Users\vishn\AppData\Local\Pandoc;C:\Users\vishn\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\SiliconLabs\SimplicityStudio\v5, OS=Windows_NT, COMPUTERNAME=VISHNU_G16, EnableLog=INFO, PROCESSOR_REVISION=ba02, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\vishn\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\vishn, TMP=C:\Users\vishn\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=16}
+
+!ENTRY com.silabs.ss.tool.ide.arm.debug 1 0 2024-10-10 12:04:33.106
+!MESSAGE jlink.LaunchConfigurationDelegate.newServiceFactory(LPEDT_Miner_Safety_Project GNU ARM v10.2.1 - Default GDB,10.2.90.20210621,debug) com.silabs.ss.tool.ide.arm.api.debug.gdb.StudioGdbLaunchConfigurationDelegate@1d04cb73
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 12:04:33.111
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\JLinkGDBServerCL.exe -select usb=440151512 -if swd -device EFR32BG13PxxxF512 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -ir -localhostonly 1 -log C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\gdb_20241010_120428.log -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 12:04:33.457
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\arm-none-eabi-gdb.exe --interpreter=mi2 --nx
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2024-10-10 12:04:33.731
+!MESSAGE Environment modified for executable commander:
+{USERDOMAIN_ROAMINGPROFILE=VISHNU_G16, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, ACSvcPort=17532, USERNAME=vishn, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\vishn, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, FITTERDIR=C:\Wincupl\Wincupl\Fitters, =::=::\, as31=C:\sdcc\bin\as31.exe, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5SxcbW1gh0eLjrbgeExb1AQAAAACAAAAAAAQZgAAAAEAACAAAABD0n7048b68jaT5FnkoXB/jHXTtWyUEwGFcFKgjbBhvQAAAAAOgAAAAAIAACAAAAAKWeCxjOGXTXPB6LAuYICba3Fs7Zio6ipW6aEbkK1zkmAAAABzY45LOn/KpSUHqUBcGrgJk7vR2WtlWVDVF2qidbHRDsP5b9ya0HVXO7i1CTmwhirgrgPYwZ28VKA97pn6EcWIKw4WmJ+yijyr4vk59M1y86F3Ovz9/FJw1DAhMBx7l/tAAAAA9NuDW3R9yAZzUP6XrQlOJK5wFvXtKjvQbOT0+xMcGkN/ugao/iKoKXQVfIlYSF5BE/LdAg1S4NAtahbrwv8deA==, LOCALAPPDATA=C:\Users\vishn\AppData\Local, USERDOMAIN=VISHNU_G16, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\VISHNU_G16, RlsSvcPort=22112, EFC_22068=1, OneDrive=C:\Users\vishn\OneDrive, APPDATA=C:\Users\vishn\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin\server;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2024a\bin;C:\Wincupl\WinCupl\Fitters;C:\Users\vishn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vishn\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Atmel\Flip 3.4.7\bin;C:\Program Files\SDCC\bin;C:\Users\vishn\Downloads\SomeLocalDir;C:\msys64\ucrt64\bin;C:\Users\vishn\AppData\Local\Pandoc;C:\Users\vishn\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\SiliconLabs\SimplicityStudio\v5, OS=Windows_NT, COMPUTERNAME=VISHNU_G16, EnableLog=INFO, PROCESSOR_REVISION=ba02, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\vishn\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\vishn, TMP=C:\Users\vishn\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=16}
+
+!ENTRY org.eclipse.cdt.dsf 4 10004 2024-10-10 12:04:42.893
+!MESSAGE Invalid breakpoint parameter(s)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-10-10 12:04:42.893
+!MESSAGE Invalid breakpoint parameter(s)
+
+!ENTRY com.silabs.ss.tool.ide.arm.debug 1 0 2024-10-10 12:05:37.611
+!MESSAGE jlink.LaunchConfigurationDelegate.newServiceFactory(LPEDT_Miner_Safety_Project GNU ARM v10.2.1 - Default GDB,10.2.90.20210621,debug) com.silabs.ss.tool.ide.arm.api.debug.gdb.StudioGdbLaunchConfigurationDelegate@17ce2f9a
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 12:05:37.616
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\JLinkGDBServerCL.exe -select usb=440151512 -if swd -device EFR32BG13PxxxF512 -endian little -speed 1000 -port 2331 -swoport 2332 -telnetport 2333 -ir -localhostonly 1 -log C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\gdb_20241010_120533.log -singlerun -strict -timeout 0 -nogui
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.jlink.core 4 1 2024-10-10 12:05:37.955
+!MESSAGE C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\exx32\arm-none-eabi-gdb.exe --interpreter=mi2 --nx
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2024-10-10 12:05:38.241
+!MESSAGE Environment modified for executable commander:
+{USERDOMAIN_ROAMINGPROFILE=VISHNU_G16, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, ACSvcPort=17532, USERNAME=vishn, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\vishn, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, FITTERDIR=C:\Wincupl\Wincupl\Fitters, =::=::\, as31=C:\sdcc\bin\as31.exe, ZES_ENABLE_SYSMAN=1, IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5SxcbW1gh0eLjrbgeExb1AQAAAACAAAAAAAQZgAAAAEAACAAAABD0n7048b68jaT5FnkoXB/jHXTtWyUEwGFcFKgjbBhvQAAAAAOgAAAAAIAACAAAAAKWeCxjOGXTXPB6LAuYICba3Fs7Zio6ipW6aEbkK1zkmAAAABzY45LOn/KpSUHqUBcGrgJk7vR2WtlWVDVF2qidbHRDsP5b9ya0HVXO7i1CTmwhirgrgPYwZ28VKA97pn6EcWIKw4WmJ+yijyr4vk59M1y86F3Ovz9/FJw1DAhMBx7l/tAAAAA9NuDW3R9yAZzUP6XrQlOJK5wFvXtKjvQbOT0+xMcGkN/ugao/iKoKXQVfIlYSF5BE/LdAg1S4NAtahbrwv8deA==, LOCALAPPDATA=C:\Users\vishn\AppData\Local, USERDOMAIN=VISHNU_G16, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\VISHNU_G16, RlsSvcPort=22112, EFC_22068=1, OneDrive=C:\Users\vishn\OneDrive, APPDATA=C:\Users\vishn\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin\server;C:\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java17.windows.x86_64.feature_17.0.3\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2024a\bin;C:\Wincupl\WinCupl\Fitters;C:\Users\vishn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vishn\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Atmel\Flip 3.4.7\bin;C:\Program Files\SDCC\bin;C:\Users\vishn\Downloads\SomeLocalDir;C:\msys64\ucrt64\bin;C:\Users\vishn\AppData\Local\Pandoc;C:\Users\vishn\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\SiliconLabs\SimplicityStudio\v5, OS=Windows_NT, COMPUTERNAME=VISHNU_G16, EnableLog=INFO, PROCESSOR_REVISION=ba02, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\vishn\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\vishn, TMP=C:\Users\vishn\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=16}
+
+!ENTRY org.eclipse.ui.console 4 2 2024-10-10 13:15:39.947
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.custom.StyledText.setBackground(org.eclipse.swt.graphics.Color)" because the return value of "org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.getTextWidget()" is null
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.propertyChange(BuildConsolePage.java:262)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.run(AbstractConsole.java:97)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.notify(AbstractConsole.java:112)
+	at org.eclipse.ui.console.AbstractConsole.firePropertyChange(AbstractConsole.java:230)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsole.setBackground(BuildConsole.java:133)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.propertyChange(BuildConsoleManager.java:374)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:325)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:322)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.lambda$0(ScopedPreferenceStore.java:171)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:849)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:852)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.remove(EclipsePreferences.java:959)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1448)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.lambda$0(PartRenderingEngine.java:1431)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4235)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3681)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.console 4 120 2024-10-10 13:15:39.956
+!MESSAGE Exception occurred during console property change notification.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.custom.StyledText.setBackground(org.eclipse.swt.graphics.Color)" because the return value of "org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.getTextWidget()" is null
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.propertyChange(BuildConsolePage.java:262)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.run(AbstractConsole.java:97)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.notify(AbstractConsole.java:112)
+	at org.eclipse.ui.console.AbstractConsole.firePropertyChange(AbstractConsole.java:230)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsole.setBackground(BuildConsole.java:133)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.propertyChange(BuildConsoleManager.java:374)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:325)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:322)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.lambda$0(ScopedPreferenceStore.java:171)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:849)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:852)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.remove(EclipsePreferences.java:959)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1448)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.lambda$0(PartRenderingEngine.java:1431)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4235)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3681)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.console 4 2 2024-10-10 13:15:39.958
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.custom.StyledText.setBackground(org.eclipse.swt.graphics.Color)" because the return value of "org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.getTextWidget()" is null
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.propertyChange(BuildConsolePage.java:262)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.run(AbstractConsole.java:97)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.notify(AbstractConsole.java:112)
+	at org.eclipse.ui.console.AbstractConsole.firePropertyChange(AbstractConsole.java:230)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsole.setBackground(BuildConsole.java:133)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.propertyChange(BuildConsoleManager.java:374)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:325)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:322)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.lambda$0(ScopedPreferenceStore.java:171)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:849)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:852)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.remove(EclipsePreferences.java:959)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1448)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.lambda$0(PartRenderingEngine.java:1431)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4235)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3681)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.console 4 120 2024-10-10 13:15:39.960
+!MESSAGE Exception occurred during console property change notification.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.custom.StyledText.setBackground(org.eclipse.swt.graphics.Color)" because the return value of "org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.getTextWidget()" is null
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.propertyChange(BuildConsolePage.java:262)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.run(AbstractConsole.java:97)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.notify(AbstractConsole.java:112)
+	at org.eclipse.ui.console.AbstractConsole.firePropertyChange(AbstractConsole.java:230)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsole.setBackground(BuildConsole.java:133)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.propertyChange(BuildConsoleManager.java:374)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:325)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:322)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.lambda$0(ScopedPreferenceStore.java:171)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:849)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:852)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.remove(EclipsePreferences.java:959)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1448)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.lambda$0(PartRenderingEngine.java:1431)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4235)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3681)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.console 4 2 2024-10-10 13:15:39.984
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.propertyChange(BuildConsolePage.java:253)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.run(AbstractConsole.java:97)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.notify(AbstractConsole.java:112)
+	at org.eclipse.ui.console.AbstractConsole.firePropertyChange(AbstractConsole.java:230)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleStreamDecorator.setColor(BuildConsoleStreamDecorator.java:46)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.propertyChange(BuildConsoleManager.java:356)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:325)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:322)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.lambda$0(ScopedPreferenceStore.java:171)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:849)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:852)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.remove(EclipsePreferences.java:959)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1448)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.lambda$0(PartRenderingEngine.java:1431)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4235)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3681)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.console 4 120 2024-10-10 13:15:39.989
+!MESSAGE Exception occurred during console property change notification.
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.propertyChange(BuildConsolePage.java:253)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.run(AbstractConsole.java:97)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.notify(AbstractConsole.java:112)
+	at org.eclipse.ui.console.AbstractConsole.firePropertyChange(AbstractConsole.java:230)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleStreamDecorator.setColor(BuildConsoleStreamDecorator.java:46)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.propertyChange(BuildConsoleManager.java:356)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:325)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:322)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.lambda$0(ScopedPreferenceStore.java:171)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:849)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:852)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.remove(EclipsePreferences.java:959)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1448)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.lambda$0(PartRenderingEngine.java:1431)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4235)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3681)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.console 4 2 2024-10-10 13:15:39.991
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.propertyChange(BuildConsolePage.java:253)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.run(AbstractConsole.java:97)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.notify(AbstractConsole.java:112)
+	at org.eclipse.ui.console.AbstractConsole.firePropertyChange(AbstractConsole.java:230)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleStreamDecorator.setColor(BuildConsoleStreamDecorator.java:46)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.propertyChange(BuildConsoleManager.java:356)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:325)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:322)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.lambda$0(ScopedPreferenceStore.java:171)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:849)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:852)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.remove(EclipsePreferences.java:959)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1448)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.lambda$0(PartRenderingEngine.java:1431)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4235)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3681)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.console 4 120 2024-10-10 13:15:39.993
+!MESSAGE Exception occurred during console property change notification.
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.propertyChange(BuildConsolePage.java:253)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.run(AbstractConsole.java:97)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.notify(AbstractConsole.java:112)
+	at org.eclipse.ui.console.AbstractConsole.firePropertyChange(AbstractConsole.java:230)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleStreamDecorator.setColor(BuildConsoleStreamDecorator.java:46)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.propertyChange(BuildConsoleManager.java:356)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:325)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:322)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.lambda$0(ScopedPreferenceStore.java:171)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:849)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:852)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.remove(EclipsePreferences.java:959)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1448)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.lambda$0(PartRenderingEngine.java:1431)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4235)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3681)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.console 4 2 2024-10-10 13:15:39.997
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.propertyChange(BuildConsolePage.java:253)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.run(AbstractConsole.java:97)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.notify(AbstractConsole.java:112)
+	at org.eclipse.ui.console.AbstractConsole.firePropertyChange(AbstractConsole.java:230)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleStreamDecorator.setColor(BuildConsoleStreamDecorator.java:46)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.propertyChange(BuildConsoleManager.java:362)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:325)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:322)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.lambda$0(ScopedPreferenceStore.java:171)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:849)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:852)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.remove(EclipsePreferences.java:959)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1448)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.lambda$0(PartRenderingEngine.java:1431)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4235)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3681)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.console 4 120 2024-10-10 13:15:40.000
+!MESSAGE Exception occurred during console property change notification.
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.propertyChange(BuildConsolePage.java:253)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.run(AbstractConsole.java:97)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.notify(AbstractConsole.java:112)
+	at org.eclipse.ui.console.AbstractConsole.firePropertyChange(AbstractConsole.java:230)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleStreamDecorator.setColor(BuildConsoleStreamDecorator.java:46)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.propertyChange(BuildConsoleManager.java:362)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:325)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:322)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.lambda$0(ScopedPreferenceStore.java:171)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:849)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:852)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.remove(EclipsePreferences.java:959)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1448)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.lambda$0(PartRenderingEngine.java:1431)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4235)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3681)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.console 4 2 2024-10-10 13:15:40.003
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.propertyChange(BuildConsolePage.java:253)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.run(AbstractConsole.java:97)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.notify(AbstractConsole.java:112)
+	at org.eclipse.ui.console.AbstractConsole.firePropertyChange(AbstractConsole.java:230)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleStreamDecorator.setColor(BuildConsoleStreamDecorator.java:46)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.propertyChange(BuildConsoleManager.java:362)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:325)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:322)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.lambda$0(ScopedPreferenceStore.java:171)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:849)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:852)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.remove(EclipsePreferences.java:959)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1448)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.lambda$0(PartRenderingEngine.java:1431)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4235)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3681)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.console 4 120 2024-10-10 13:15:40.007
+!MESSAGE Exception occurred during console property change notification.
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.propertyChange(BuildConsolePage.java:253)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.run(AbstractConsole.java:97)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.console.AbstractConsole$PropertyNotifier.notify(AbstractConsole.java:112)
+	at org.eclipse.ui.console.AbstractConsole.firePropertyChange(AbstractConsole.java:230)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleStreamDecorator.setColor(BuildConsoleStreamDecorator.java:46)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.propertyChange(BuildConsoleManager.java:362)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:325)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:322)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.lambda$0(ScopedPreferenceStore.java:171)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$2.run(EclipsePreferences.java:849)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:852)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.remove(EclipsePreferences.java:959)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1448)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.resetOverriddenPreferences(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$StylingPreferencesHandler.lambda$0(PartRenderingEngine.java:1431)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4235)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3681)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2024-10-10 13:15:40.025
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.custom.StyledText.redraw()" because the return value of "org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.getTextWidget()" is null
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.lambda$1(BuildConsoleManager.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3710)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2024-10-10 13:15:40.027
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.custom.StyledText.redraw()" because the return value of "org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.getTextWidget()" is null
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.lambda$1(BuildConsoleManager.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3710)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2024-10-10 13:15:40.029
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.custom.StyledText.redraw()" because the return value of "org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.getTextWidget()" is null
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.lambda$1(BuildConsoleManager.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3710)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2024-10-10 13:15:40.030
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.custom.StyledText.redraw()" because the return value of "org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.getTextWidget()" is null
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.lambda$1(BuildConsoleManager.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3710)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2024-10-10 13:15:40.032
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.custom.StyledText.redraw()" because the return value of "org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.getTextWidget()" is null
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.lambda$1(BuildConsoleManager.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3710)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2024-10-10 13:15:40.033
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.custom.StyledText.redraw()" because the return value of "org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.getTextWidget()" is null
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.lambda$1(BuildConsoleManager.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3710)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:168)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
