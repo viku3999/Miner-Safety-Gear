@@ -44,6 +44,7 @@
 #include "src/i2c.h"
 #include "src/ble.h"
 #include "src/Si7021.h"
+#include "src/SPI.h"
 
 // Include logging specifically for this .c file
 #define INCLUDE_LOG_DEBUG 1
@@ -137,7 +138,13 @@ SL_WEAK void app_init(void)
   LETIMER0_Enable(LOWEST_ENERGY_MODE);
 
 #if BUILD_INCLUDES_BLE_SERVER == 1
-  I2C_Init_Si7021();
+//  I2C_Init_Si7021();
+  I2C_Init_BMI270();
+
+  // Initialize USART1 as SPI slave
+//  initUSART0();
+//  SPI_Trial_Init();
+
 #endif
 
   // Set the required parameters as per the desired energy mode
@@ -165,6 +172,10 @@ SL_WEAK void app_process_action(void)
 
 //  temperature_state_machine(event);
   temperature_state_machine(event);
+
+//    Send_tx();
+//  SPI_Trial();
+
 #endif
 } // app_process_action()
 

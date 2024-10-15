@@ -51,7 +51,9 @@ void temperature_state_machine(uint32_t event){
              * Si7021 POR and go to next state
              */
               if (event == EVENT_LETIMER_UF) {
-                  si7021TurnOn();
+//                  si7021TurnOn();
+                  BMI270_Get_Chip_Id();
+                  BME688_Get_Chip_Id();
                   timerWaitUs_irq(SI7021_POR_TIME_US);
                   nextState = waitForSi7021POR;
               }
@@ -114,7 +116,8 @@ void temperature_state_machine(uint32_t event){
                   // Converting the data received from the sensor into temperature in Celsius
                   // using the formula given in the SI7021 sensor application note AN607
                   temperature_reading = ((Si7021_data*175.72)/65536) - 46.85;
-                  LOG_INFO("Temp1= %d°C\r\n", temperature_reading);
+                  LOG_INFO("Temp1= %d°C\r\n\n", temperature_reading);
+//                  BMI270_Get_Chip_Id();
                   nextState = stateIdle;
               }
             break;

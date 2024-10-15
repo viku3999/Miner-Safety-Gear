@@ -62,8 +62,6 @@ bool PB1_State;
 // Set GPIO drive strengths and modes of operation
 void gpioInit()
 {
-    // Student Edit:
-
     // Set the port's drive strength. In this MCU implementation, all GPIO cells
     // in a "Port" share the same drive strength setting. 
 //	GPIO_DriveStrengthSet(LED_port, gpioDriveStrengthStrongAlternateStrong); // Strong, 10mA
@@ -82,6 +80,12 @@ void gpioInit()
   // Setting the 2 pushbuttons to input mode, pulled up with filtering
   GPIO_PinModeSet(PB0_PORT, PB0_PIN, gpioModeInputPullFilter, true);
   GPIO_PinModeSet(PB1_PORT, PB1_PIN, gpioModeInputPullFilter, true);
+
+  // Configure GPIO for SPI
+//  GPIO_PinModeSet(gpioPortC, 8, gpioModePushPull, 0); // US1_CLK is push pull
+//  GPIO_PinModeSet(gpioPortC, 9, gpioModePushPull, 1); // US1_CS is push pull
+//  GPIO_PinModeSet(gpioPortC, 6, gpioModePushPull, 1); // US1_TX (MOSI) is push pull
+//  GPIO_PinModeSet(gpioPortC, 7, gpioModeInput, 1);    // US1_RX (MISO) is input
 
   // Enable IRQ for even numbered GPIO pins
   NVIC_EnableIRQ(GPIO_EVEN_IRQn);

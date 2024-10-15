@@ -57,6 +57,25 @@ void I2C_Init_Si7021(){
   I2CSPM_Init(&I2C_Config);
 }
 
+void I2C_Init_BMI270(){
+
+  // Init I2C Hardware
+  I2CSPM_Init_TypeDef I2C_Config = {
+    .port = I2C0,
+    .sclPort = gpioPortC,
+    .sclPin = 10,
+    .sdaPort = gpioPortC,
+    .sdaPin = 11,
+    .portLocationScl = 14,
+    .portLocationSda = 16,
+    .i2cRefFreq = 0,
+    .i2cMaxFreq = I2C_FREQ_STANDARD_MAX,
+    .i2cClhr = i2cClockHLRStandard
+  };
+
+  I2CSPM_Init(&I2C_Config);
+}
+
 /**
  * @brief   Sends the given data over the I2C bus to the addressed device.
  *          Function makes use of IRQs.
@@ -169,6 +188,30 @@ uint16_t I2C_Read_Data(uint8_t device_addr){
     return swapped_read_data;
 }
 
+/**
+ * @brief   Received data over the I2C bus from the addressed device
+ * @param   device_addr I2C device address to receive data from
+ * @return  data recieved from the addressed device, with endian-ness corrected
+ */
+uint8_t I2C_Read_Data_1(uint8_t device_addr){
+    I2C_TransferReturn_TypeDef transferStatus; // make this global for IRQs in A4
+    I2C_TransferSeq_TypeDef transferSequence; // this one can be local
+    uint8_t read_data[1] = {0x00}; // make this global for IRQs in A4
+
+    transferSequence.addr = device_addr << 1; // shift device address left
+    transferSequence.flags = I2C_FLAG_READ;
+    transferSequence.buf[0].data = read_data; // pointer to data to write
+    transferSequence.buf[0].len = sizeof(read_data);
+
+    transferStatus = I2CSPM_Transfer (I2C0, &transferSequence);
+
+    if (transferStatus != i2cTransferDone) {
+        LOG_ERROR("I2CSPM_Transfer: I2C read for device ID 0x%02x failed\r\n", device_addr);
+    }
+
+    return read_data[0];
+}
+
 
 /**
  * @brief   Gets temperature data from the onboard Si7021 temperature sensor
@@ -207,3 +250,29 @@ uint32_t I2C_Si7021_Get_Temp(){
   return (temperature_reading);
 }
 
+void BME688_Get_Chip_Id(){
+  I2C_Write_Data(0x77, 0xD0);
+  uint8_t read_data;
+
+  read_data = I2C_Read_Data_1(0x77);
+  LOG_INFO("BME 688 Chip ID: 0x%02x \r\n", (uint8_t) read_data);
+
+  uint8_t press_buff[2] = {0, 0};
+  I2C_Write_Data(0x77, 0x42);
+  press_buff[0] = I2C_Read_Data_1(0x77);
+  I2C_Write_Data(0x77, 0x41);
+  press_buff[1] = I2C_Read_Data_1(0x77);
+
+  uint16_t press_data= 0;
+  press_data = press_buff[1] << 8 | press_buff[0];
+  LOG_INFO("Pressure data: %d\r\n", press_data);
+
+}
+
+void BMI270_Get_Chip_Id(){
+  I2C_Write_Data(0x68, 0x00);
+  uint8_t read_data;
+
+  read_data = I2C_Read_Data_1(0x68);
+  LOG_INFO("BMI 270 Chip ID: 0x%02x \r\n", (uint8_t) read_data);
+}

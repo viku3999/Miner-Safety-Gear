@@ -60,4 +60,10 @@ void I2C_Read_Data_irq(uint8_t device_addr);
  */
 uint16_t I2C_Get_Data();
 
+void BMI270_Get_Chip_Id();
+
+void I2C_Init_BMI270();
+
+void BME688_Get_Chip_Id();
+
 #endif /* SRC_I2C_H_ */

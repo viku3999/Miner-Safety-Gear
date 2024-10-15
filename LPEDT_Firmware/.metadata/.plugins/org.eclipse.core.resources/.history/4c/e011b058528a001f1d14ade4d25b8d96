@@ -1,0 +1,21 @@
+/*
+ * SPI.h
+ *
+ *  Created on: Oct 12, 2024
+ *      Author: vishn
+ */
+
+#ifndef SRC_SPI_H_
+#define SRC_SPI_H_
+
+void initUSART1();
+
+
+#define TX_BUFFER_SIZE   10
+#define RX_BUFFER_SIZE   TX_BUFFER_SIZE
+
+uint8_t TxBuffer[TX_BUFFER_SIZE] = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09};
+uint8_t RxBuffer[RX_BUFFER_SIZE];
+
+
+#endif /* SRC_SPI_H_ */
