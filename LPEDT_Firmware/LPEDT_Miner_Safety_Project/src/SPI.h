@@ -20,4 +20,8 @@ void SPI_Trial_Init();
 
 void SPI_Trial();
 
+void SPI_Init();
+
+void SPI_Get_Chip_Id();
+
 #endif /* SRC_SPI_H_ */

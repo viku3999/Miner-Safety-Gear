@@ -98,4 +98,6 @@ void si7021TurnOff();
  */
 void gpioSetDisplayExtcomin(bool state);
 
+void gpioSpiCs(int x);
+
 #endif /* SRC_GPIO_H_ */

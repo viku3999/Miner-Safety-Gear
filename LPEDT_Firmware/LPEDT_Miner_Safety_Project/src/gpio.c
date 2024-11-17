@@ -56,6 +56,9 @@
 #define PB0_PIN (6)
 #define PB1_PIN (7)
 
+#define SPI_CS_PORT (gpioPortC)
+#define SPI_CS_PIN  (9)
+
 bool PB0_State;
 bool PB1_State;
 
@@ -82,10 +85,10 @@ void gpioInit()
   GPIO_PinModeSet(PB1_PORT, PB1_PIN, gpioModeInputPullFilter, true);
 
   // Configure GPIO for SPI
-//  GPIO_PinModeSet(gpioPortC, 8, gpioModePushPull, 0); // US1_CLK is push pull
-//  GPIO_PinModeSet(gpioPortC, 9, gpioModePushPull, 1); // US1_CS is push pull
-//  GPIO_PinModeSet(gpioPortC, 6, gpioModePushPull, 1); // US1_TX (MOSI) is push pull
-//  GPIO_PinModeSet(gpioPortC, 7, gpioModeInput, 1);    // US1_RX (MISO) is input
+  GPIO_PinModeSet(gpioPortC, 8, gpioModePushPull, 0); // US1_CLK is push pull
+  GPIO_PinModeSet(gpioPortC, 9, gpioModePushPull, 1); // US1_CS is push pull
+  GPIO_PinModeSet(gpioPortC, 6, gpioModePushPull, 1); // US1_TX (MOSI) is push pull
+  GPIO_PinModeSet(gpioPortC, 7, gpioModeInput, 1);    // US1_RX (MISO) is input
 
   // Enable IRQ for even numbered GPIO pins
   NVIC_EnableIRQ(GPIO_EVEN_IRQn);
@@ -128,6 +131,17 @@ bool Get_PB0_State(){
 void Si7021GPIOInit(){
   GPIO_DriveStrengthSet(SI7021_EN_PORT, gpioDriveStrengthWeakAlternateWeak); // Weak, 1mA
   GPIO_PinModeSet(SI7021_EN_PORT, SI7021_EN_PIN, gpioModePushPull, false);
+}
+
+void gpioSpiCs(int x){
+  if(x == 0){
+    GPIO_PinOutClear(SPI_CS_PORT, SPI_CS_PIN);
+  }
+
+  if(x == 1){
+    GPIO_PinOutSet(SPI_CS_PORT, SPI_CS_PIN);
+  }
+
 }
 
 /**
