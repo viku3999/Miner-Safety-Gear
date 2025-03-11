@@ -1,0 +1,1 @@
+This repo contains the PCB schematic, design files, firmware, project report documenting the product lifecycle from product inseption till its creation. This project is developed as course project for the "Low Power Embedded Design Techniques" class taken in CU boulder in Fall24 semester. 
